@@ -35,12 +35,22 @@
 			margin-left: auto;
 			margin-right: auto;
 		}
-
+		@media(max-width: 800px){
+			#grid {
+				display: block;
+			}
+			#grid ol {
+				border-right: none;
+			}
+			h1 {
+				border-bottom: none;
+			}
+		}
 </style>
 </head>
 
 <body>
-	<h1><a href="Test_1.html" target="_blank" title="index" style="color:gray;">WEB</a></h1>
+	<h1><a href="Test_1.html" target="_blank" title="index" style="color:black; text-decoration: none;">WEB</a></h1>
 	<div id="grid">
 			<ol>
 				<li><a href="1.html">HTM</a></ li>
@@ -49,7 +59,7 @@
 			</ol>
 
 		<div id="article">
-			<h2>Cool</h2>
+			<h2>Practice</h2>
 			<p><a href="https://www.w3.org/TR/html53/#toc" target="_blank" title="html specification">Hyper Text Markup Language (HTML)</a> is the standard markup language for <strong>creating <u>web</u> pages</strong> and web applications.Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.<br>
 			<img src="image1.jpg" width="500" class="center">
 
