@@ -7,18 +7,33 @@
   </head>
   <body>
     <h1>Array</h1>
+
     <h2>Syntax</h2>
     <script>
       var coworkers = ["egoing", "leezche"];
-
     </script>
+
     <h2>Get</h2>
     <script>
-      <h3>1st</h3>
-      document.write(Coworkers[0]);
-      <br>
-      <h3>2nd</h3>
-      document.write(Coworkers[1]);
+      document.write(coworkers[0] + "<br>" + coworkers[1]);
     </script>
+
+    <h2>Add</h2>
+    <p>Adding Mango & Watermelon in variable coworkers and display with it.</p>
+    <script>
+      coworkers.push("Mango");
+      coworkers.push("Watermelon");
+      var i;
+      for (i = 0; i < coworkers.length; i++)
+        {
+          document.write(coworkers[i] + " ");
+        }
+    </script>
+
+    <h2>Count</h2>
+    <script>
+      document.write(coworkers.length);
+    </script>
+
   </body>
 </html>
